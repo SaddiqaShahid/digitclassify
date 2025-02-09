@@ -8,7 +8,7 @@
         "maxLambdaSize": "50mb",
         "runtime": "python3.12",
         "includeFiles": ["model/**", "static/**", "templates/**"],
-        "functions": {  // Moved the functions config here
+        "functions": {  
           "memory": 2048,
           "maxDuration": 60
         }
